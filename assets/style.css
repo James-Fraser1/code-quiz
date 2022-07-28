@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.top_line {
+    text-decoration: none;
+    color: burlywood;
+}
+
+#main {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+ 
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.quiz-box {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem 5rem 5rem 5rem;
+}
+
+#choice-container {
+    display: flex;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+    background: rgb(74, 80, 195);
+    border-radius: 12px;
+    text-align: left;
+}
+
+#choice-container:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+#choice-prefix {
+    padding: 1rem;
+}
+
+#choice-text {
+    padding: 1rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #choice-container {
+        min-width: 40rem;
+    }
+}
+
+.btn:active {
+    background-color: rgb(195, 142, 74)
+}
+
+#score {
+    color: black;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.quiz-return {
+    text-align: center;
+    margin: 0  auto;
+}
+
+.quiz-return a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 2rem;
+    width: 20rem;
+    padding: 1rem;
+}
